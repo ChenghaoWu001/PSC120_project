@@ -1,0 +1,59 @@
+Parameter Sweeps
+
+Number of parameters swept: 6
+
+Table of parameters swept 
+public	boolean	groups	true	true	true	false	false	false	
+public	int	memorySize	1	2	3	1	2	3	
+
+Parameter values for the class class evolutionaryGames.Environment
+id  0
+_cooperators  100
+_defectors  100
+_walkawayCooperators  100
+_walkawayDefectors  100
+_tftMobile  100
+_tftStationary  100
+_pavlovMobile  100
+_pavlovStationary  100
+memorySize  1
+active  1.0
+groups  true
+averageAge  50.0
+sdAge  10.0
+mutationRate  0.01
+resoucesToReproduce  30.0
+minResourcesStart  30.0
+maxResourcesStart  30.0
+carryingCapacity  2000.0
+searchRadiusPlayer  1
+cooperate_cooperator  3.0
+defect_defector  0.0
+cooperate_defector  -1.0
+defect_cooperator  5.0
+reproductionRadius  1
+lowerBoundsSurvival  0.0
+useLowerBoundsSurvival  true
+localReproduction  true
+mutationRange  true
+charts  true
+nameSpace  SPARSE
+gridWidth  100
+gridHeight  100
+paramSweeps  true
+simLength  5001
+simNumber  10
+fileDataName  results.txt
+folderDataName  data
+dataSamplingInterval  50
+burnIn  0
+scheduleTimeInterval  1.0
+closeProgramAtend  true
+customSweepOnly  false
+groups	Value	memorySize	Value	Step	Reps	N	Coop	Def	WCoop	WDef	TFTM	TFTS	PAVLOVM	PAVLOVS	Step	Reps	N	Coop	Def	WCoop	WDef	TFTM	TFTS	PAVLOVM	PAVLOVS	
+groups	true	memorySize	1	1400.000	1.000	10.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	0.000	1400.000	1.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000
+groups	true	memorySize	2	5000.000	3.000	1999.333	0.024	0.016	0.052	0.062	0.340	0.033	0.452	0.021	5000.000	3.000	0.333	0.011	0.002	0.004	0.023	0.237	0.012	0.205	0.004
+groups	true	memorySize	3	5000.000	9.000	1999.889	0.048	0.010	0.106	0.023	0.378	0.107	0.287	0.041	5000.000	9.000	0.111	0.005	0.002	0.021	0.009	0.069	0.032	0.085	0.011
+groups	false	memorySize	1	5000.000	10.000	1999.800	0.205	0.009	0.176	0.034	0.175	0.062	0.230	0.109	5000.000	10.000	0.133	0.034	0.001	0.026	0.004	0.034	0.012	0.018	0.016
+groups	false	memorySize	2	5000.000	10.000	1999.800	0.081	0.004	0.163	0.007	0.369	0.076	0.253	0.046	5000.000	10.000	0.133	0.013	0.001	0.023	0.001	0.022	0.013	0.032	0.006
+groups	false	memorySize	3	5000.000	10.000	1999.600	0.105	0.003	0.149	0.005	0.348	0.068	0.266	0.056	5000.000	10.000	0.163	0.015	0.000	0.016	0.001	0.020	0.010	0.017	0.012
